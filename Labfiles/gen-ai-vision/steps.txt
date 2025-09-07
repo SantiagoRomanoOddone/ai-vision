@@ -1,0 +1,19 @@
+
+1. 
+cd mslearn-ai-vision/Labfiles/gen-ai-vision/python
+
+2.
+python -m venv labenv
+# In mac
+source ./labenv/bin/activate
+pip install -r requirements.txt azure-identity azure-ai-projects openai
+
+3. 
+Add endopint and key in .env
+
+4.
+python chat-app.py
+
+
+resurce:
+https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Labs/08-gen-ai-vision.html
