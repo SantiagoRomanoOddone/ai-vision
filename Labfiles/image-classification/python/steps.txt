@@ -1,0 +1,29 @@
+
+1. 
+cd mslearn-ai-vision/Labfiles/image-classification/python/train-classifier
+ls -a -l
+
+2.
+python -m venv labenv
+# In mac
+source ./labenv/bin/activate
+pip install -r requirements.txt azure-cognitiveservices-vision-customvision
+
+3. 
+Add endopint and key in .env
+
+4.
+# traning the model locally
+python train-classifier.py
+
+5. publish the model and then
+cd ../test-classifier
+
+6.
+update the .env
+
+python test-classifier.py
+
+
+resurce:
+https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Labs/04-image-classification.html
