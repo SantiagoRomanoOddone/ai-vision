@@ -1,0 +1,19 @@
+
+1. 
+cd Labfiles/ocr/python/read-text
+
+2.
+python -m venv labenv
+# In mac
+source ./labenv/bin/activate
+pip install -r requirements.txt azure-ai-vision-imageanalysis==1.0.0
+
+3. 
+Add endopint and key in .env
+
+4.
+python read-text.py images/Lincoln.jpg
+
+
+resurce:
+https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Labs/02-ocr.html
